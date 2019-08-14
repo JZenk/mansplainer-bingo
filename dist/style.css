@@ -1,0 +1,44 @@
+:root {
+  --dabber-color: #ffa3c0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: arial, sans-serif;
+}
+#clear {
+  font-size: 1rem;
+  width:6rem;
+}
+.card {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 35rem;
+  border: medium solid black;
+}
+.card div {
+  text-align: center;
+  font-size: 6rem;
+  border: thin solid black;
+  border-bottom-width: medium;
+  box-sizing: border-box;
+  height: 7rem;
+  width: 7rem;
+}
+.card button {
+  display: flex;
+  border: thin solid black;
+  text-align: center;
+  font-size: 1rem;
+  height: 7rem;
+  width: 7rem;
+}
+.checked {
+  text-decoration: line-through;
+  background-color: var(--dabber-color);
+}
